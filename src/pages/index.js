@@ -1,9 +1,19 @@
 import React from "react"
+import Footer from "../components/footer"
+import Seo from "../components/seo"
+import Sobre from "../components/sobre"
+import Sobre1 from "../components/sobre1"
+
+
 
 const Index = () => {
     return (
         <div>
-            <h1>Teste</h1>
+            <Seo title='Psicóloga Jullia' description='incluir descrição...' />
+            <Sobre />
+            <Sobre1 />
+
+            <Footer />
         </div>
     )
 }
