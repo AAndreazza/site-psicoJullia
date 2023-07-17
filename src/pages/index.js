@@ -1,5 +1,4 @@
 import React from "react"
-import Footer from "../components/footer"
 import Seo from "../components/seo"
 import Sobre from "../components/sobre"
 import Sobre1 from "../components/sobre1"
@@ -13,7 +12,7 @@ const Index = () => {
             <Sobre />
             <Sobre1 />
 
-            <Footer />
+        
         </div>
     )
 }
