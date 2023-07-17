@@ -3,7 +3,7 @@ import React from 'react'
 
 const Hero = () => {
     return (
-        <div className='bg-white mb-32'>
+        <div className='bg-[#fff9f9]'>
         <header className='absolute inset-x-0 top-0 z-50 bg-[#fff9f9]'>
             <nav className='flex items-center justify-between p-10 lg:px-8' aria-label='Global'>
             <div className='flex lg:flex-1'>

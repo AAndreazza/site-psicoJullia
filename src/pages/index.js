@@ -8,13 +8,11 @@ import Hero from "../components/hero"
 
 const Index = () => {
     return (
-        <div>
+        <div className='bg-[#fff9f9]'>
             <Seo title='Psicóloga Jullia' description='incluir descrição...' />
             <Hero />
-            <Sobre />
             <Sobre1 />
-
-        
+            <Sobre />
         </div>
     )
 }
