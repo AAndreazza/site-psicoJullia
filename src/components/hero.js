@@ -1,5 +1,6 @@
 import { StaticImage } from 'gatsby-plugin-image'
 import React from 'react'
+import { Link } from 'gatsby'
 
 const Hero = () => {
     return (
@@ -7,10 +8,10 @@ const Hero = () => {
         <header className='absolute inset-x-0 top-0 z-50 bg-[#fff9f9]'>
             <nav className='flex items-center justify-between p-10 lg:px-8' aria-label='Global'>
             <div className='flex lg:flex-1'>
-                <a href='#' className='-m-1.5 p-1.5'>
+                <Link to='#' className='-m-1.5 p-1.5'>
                 <span className='sr-only'>Psicóloga Jullia</span>
                 <StaticImage className='h-8 w-auto' src='' alt=''/>
-                </a>
+                </Link>
             </div>
             <div className='flex lg:hidden'>
                 <button type='button' className='-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-100'>
@@ -21,13 +22,13 @@ const Hero = () => {
                 </button>
             </div>
             <div className='hidden lg:flex lg:gap-x-14'>
-                <a href='#' className='text-base font-semibold leading-6 text-gray-900'>Sobre mim</a>
-                <a href='#' className='text-base font-semibold leading-6 text-gray-900'>Serviços</a>
-                <a href='#' className='text-base font-semibold leading-6 text-gray-900'>Depoimentos</a>
-                <a href='#' className='text-base font-semibold leading-6 text-gray-900'>Contato</a>
+                <Link to='#' className='text-base font-semibold leading-6 text-gray-900'>Sobre mim</Link>
+                <Link to='#' className='text-base font-semibold leading-6 text-gray-900'>Serviços</Link>
+                <Link to='#' className='text-base font-semibold leading-6 text-gray-900'>Depoimentos</Link>
+                <Link to='#' className='text-base font-semibold leading-6 text-gray-900'>Contato</Link>
             </div>
             <div className='hidden lg:flex lg:flex-1 lg:justify-end'>
-                <a href='#' className='text-base font-semibold leading-6 text-gray-900'>Agendar <span aria-hidden='true'>&rarr;</span></a>
+                <Link to='#' className='text-base font-semibold leading-6 text-gray-900'>Agendar <span aria-hidden='true'>&rarr;</span></Link>
             </div>
             </nav>
             {/* <!-- Mobile menu, show/hide based on menu open state. --> */}
@@ -36,10 +37,10 @@ const Hero = () => {
             <div className='fixed inset-0 z-50'></div>
             <div className='fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-gray-100 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10'>
                 <div className='flex items-center justify-between'>
-                <a href='#' className='-m-1.5 p-1.5'>
+                <Link to='#' className='-m-1.5 p-1.5'>
                     <span className='sr-only'>Psicóloga Jullia</span>
                     <img className='h-8 w-auto' src='https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600' alt=''/>
-                </a>
+                </Link>
                 <button type='button' className='-m-2.5 rounded-md p-2.5 text-gray-700'>
                     <span className='sr-only'>Fechar menu</span>
                     <svg className='h-6 w-6' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' aria-hidden='true'>
@@ -50,13 +51,13 @@ const Hero = () => {
                 <div className='mt-6 flow-root'>
                 <div className='-my-6 divide-y divide-gray-500/10'>
                     <div className='space-y-2 py-6'>
-                    <a href='#' className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'>Sobre mim</a>
-                    <a href='#' className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'>Serviços</a>
-                    <a href='#' className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'>Depoimentos</a>
-                    <a href='#' className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'>Contato</a>
+                    <Link to='#' className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'>Sobre mim</Link>
+                    <Link to='#' className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'>Serviços</Link>
+                    <Link to='#' className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'>Depoimentos</Link>
+                    <Link to='#' className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'>Contato</Link>
                     </div>
                     <div className='py-6'>
-                    <a href='#' className='-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'>Agendar</a>
+                    <Link to='#' className='-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'>Agendar</Link>
                     </div>
                 </div>
                 </div>

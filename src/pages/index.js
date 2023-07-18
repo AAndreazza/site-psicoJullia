@@ -3,6 +3,7 @@ import Seo from "../components/seo"
 import Sobre from "../components/sobre"
 import Sobre1 from "../components/sobre1"
 import Hero from "../components/hero"
+import Servicos from "../components/servicos"
 
 
 
@@ -13,6 +14,7 @@ const Index = () => {
             <Hero />
             <Sobre1 />
             <Sobre />
+            <Servicos />
         </div>
     )
 }

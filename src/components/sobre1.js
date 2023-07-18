@@ -1,6 +1,7 @@
 import { StaticImage } from 'gatsby-plugin-image'
 import React from 'react'
 
+
 /* bg-gray-900 || text-gray-400 */
 
 const Sobre1 = () => {
