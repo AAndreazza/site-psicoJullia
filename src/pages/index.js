@@ -4,6 +4,8 @@ import Sobre from "../components/sobre"
 import Sobre1 from "../components/sobre1"
 import Hero from "../components/hero"
 import Servicos from "../components/servicos"
+import Depoimentos from "../components/depoimentos"
+import Contato from "../components/contato"
 
 
 
@@ -13,8 +15,9 @@ const Index = () => {
             <Seo title='Psicóloga Jullia' description='incluir descrição...' />
             <Hero />
             <Sobre1 />
-            <Sobre />
             <Servicos />
+            <Contato />
+            <Depoimentos />
         </div>
     )
 }
