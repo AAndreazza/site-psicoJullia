@@ -1,13 +1,12 @@
 import React from "react"
 import Seo from "../components/seo"
+import Hero from "../components/hero"
 import Sobre from "../components/sobre"
 import Sobre1 from "../components/sobre1"
-import Hero from "../components/hero"
 import Servicos from "../components/servicos"
-import Depoimentos from "../components/depoimentos"
 import Contato from "../components/contato"
-
-
+import Depoimentos from "../components/depoimentos"
+import Footer from "../components/footer"
 
 const Index = () => {
     return (
@@ -18,6 +17,7 @@ const Index = () => {
             <Servicos />
             <Contato />
             <Depoimentos />
+            <Footer />
         </div>
     )
 }
