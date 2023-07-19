@@ -41,13 +41,13 @@ const Footer = () => {
                     <h3 className='text-sm font-semibold leading-6 text-gray-900'>Informações</h3>
                     <div role='list' className='mt-6 space-y-4'>
                     <div>
-                        <Link to='/blog' className='text-sm leading-6 text-gray-600 hover:text-gray-900'>Sobre mim</Link>
+                        <Link to='#sobremim' className='text-sm leading-6 text-gray-600 hover:text-gray-900'>Sobre mim</Link>
                     </div>
                     <div>
-                        <Link to='#time' className='text-sm leading-6 text-gray-600 hover:text-gray-900'>Depoimentos</Link>
+                        <Link to='#depoimentos' className='text-sm leading-6 text-gray-600 hover:text-gray-900'>Depoimentos</Link>
                     </div>
                     <div>
-                        <Link to=''className='text-sm leading-6 text-gray-600 hover:text-gray-900'>Convênios</Link>
+                        <Link to='#convenios'className='text-sm leading-6 text-gray-600 hover:text-gray-900'>Convênios</Link>
                     </div>
                     <div>
                         <Link to='#contato' className='text-sm leading-6 text-gray-600 hover:text-gray-900'>Contatos</Link>
@@ -59,16 +59,16 @@ const Footer = () => {
                     <h3 className='text-sm font-semibold leading-6 text-gray-900'>Serviços</h3>
                     <div role='list' className='mt-6 space-y-4'>
                     <div>
-                        <Link to='#yoga' className='text-sm leading-6 text-gray-600 hover:text-gray-900'>Terapia Presencial e Online</Link>
+                        <Link to='#link-whatsapp' className='text-sm leading-6 text-gray-600 hover:text-gray-900'>Terapia Presencial e Online</Link>
                     </div>
                     <div>
-                        <Link to='#drenagem-linfatica' className='text-sm leading-6 text-gray-600 hover:text-gray-900'>Avaliação Psicológica</Link>
+                        <Link to='#link-whatsapp' className='text-sm leading-6 text-gray-600 hover:text-gray-900'>Avaliação Psicológica</Link>
                     </div>
                     <div>
-                        <Link to='#preenchimentos' className='text-sm leading-6 text-gray-600 hover:text-gray-900'>Avaliação Neuropsicológica</Link>
+                        <Link to='#link-whatsapp' className='text-sm leading-6 text-gray-600 hover:text-gray-900'>Avaliação Neuropsicológica</Link>
                     </div>
                     <div>
-                        <Link to='#spa-day' className='text-sm leading-6 text-gray-600 hover:text-gray-900'>Reabilitação Neuropsicológica</Link>
+                        <Link to='#link-whatsapp' className='text-sm leading-6 text-gray-600 hover:text-gray-900'>Reabilitação Neuropsicológica</Link>
                     </div>
                     </div>
                 </div>
@@ -78,7 +78,7 @@ const Footer = () => {
             </div>
             </div>
             <div className='mt-6 border-t border-gray-900/10 pt-4 sm:mt-2 lg:mt-2'>
-            <p className='text-xs leading-5 text-gray-500'>&copy; Copyright 2023</p>
+            <p className='text-xs leading-5 text-gray-500'>&copy; 2023 por Jullia Andreazza</p>
             </div>
         </div>
         </footer>
