@@ -4,9 +4,11 @@ import Hero from "../components/hero"
 import Sobre from "../components/sobre"
 import Sobre1 from "../components/sobre1"
 import Servicos from "../components/servicos"
-import Contato from "../components/contato"
+import Cta from "../components/cta"
 import Depoimentos from "../components/depoimentos"
+import Contato from "../components/contato"
 import Footer from "../components/footer"
+
 
 const Index = () => {
     return (
@@ -15,8 +17,9 @@ const Index = () => {
             <Hero />
             <Sobre1 />
             <Servicos />
-            <Contato />
+            <Cta />
             <Depoimentos />
+            <Contato />
             <Footer />
         </div>
     )
