@@ -7,9 +7,9 @@ import React from 'react'
 const Sobre1 = () => {
     return (
         <div className='bg-[#fff9f9] pb-16 pt-24 sm:pb-24 sm:pt-56 xl:pb-8'>
-        <div className='bg-[#d7a493] pb-20 sm:pb-24 xl:pb-0'>
-            <div className='mx-auto flex max-w-7xl flex-col items-center gap-x-8 gap-y-10 px-6 sm:gap-y-8 lg:px-8 xl:flex-row xl:items-stretch'>
-            <div className='-mt-8 w-full max-w-2xl xl:-mb-8 xl:w-2/4 xl:flex-none'>
+        <div className='bg-[#d7a493] pb-10 sm:pb-24 xl:pb-0'>
+            <div className='mx-auto flex max-w-7xl flex-col items-center gap-x-8 gap-y-10 px-6 sm:gap-y-4 lg:px-8 xl:flex-row xl:items-stretch'>
+            <div className='mt-4 mb-8 w-full max-w-2xl xl:-mb-8 xl:w-2/4 xl:flex-none'>
                 <div className='relative aspect-[2/1] h-full md:-mx-8 xl:mx-0 xl:aspect-auto'>
                 <StaticImage className='absolute inset-0 h-full w-full rounded-2xl object-cover shadow-2xl' src='../images\fotomulhercelular.jpg' alt=''/>
                 </div>
@@ -24,7 +24,7 @@ const Sobre1 = () => {
                     <div className='font-semibold text-white'>Sobre mim</div>
                     <div className='mt-1 text-[#c96572] font-semibold'>Jullia Andreazza - CRP-xx/xxxxx</div>
                 </div>
-                <blockquote className='mt-5 text-xl leading-8 text-white sm:text-1xl sm:leading-9'>
+                <blockquote className='mt-5 sm:text-xl leading-8 text-white sm:text-1xl sm:leading-9'>
                     <p>Sou uma psicóloga apaixonada pelo meu trabalho! Com base na minha experiência e conhecimento, estou comprometida em oferecer apoio terapêutico individualizado e abrangente, ajudando meus clientes a superar desafios emocionais, cognitivos e comportamentais. Através de uma abordagem empática e baseada em evidências, estou aqui para auxiliá-lo em seu processo de crescimento, cura e desenvolvimento pessoal.</p>
                 </blockquote>
                 
