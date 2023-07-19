@@ -5,21 +5,21 @@ import { Link } from 'gatsby'
 const Hero = () => {
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
     return (
-        <div className='bg-[#fff9f9]'>
+        <div className='bg-[#fff9f9] '>
         <header className='absolute inset-x-0 top-0 z-50 bg-[#fff9f9]'>
-            <nav className='flex items-center justify-between p-10 lg:px-8' aria-label='Global'>
+            <nav className='flex items-center justify-between p-5 lg:px-8' aria-label='Global'>
             <div className='flex lg:flex-1'>
-                <Link to='#' className='-m-1.5 p-1.5'>
+                {/* Logo: <Link to='#' className='-m-1.5 p-1.5'>
                 <span className='sr-only'>Psicóloga Jullia</span>
-                {/* Logo: <StaticImage className='h-8 w-auto' src='' alt=''/> */}
-                </Link>
+                <StaticImage className='h-8 w-auto' src='' alt=''/> 
+                </Link> */}
             </div>
 
             {/* Barra lateral - abrir */}
             <div className='flex lg:hidden'>
                 <button 
                     type='button' 
-                    className='-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-black'
+                    className='-m-1.5 inline-flex items-center justify-center rounded-md p-2.5 text-black'
                     onClick={() => setIsSidebarOpen(true)} 
                 >
                 <span className='sr-only'>Abrir menu</span>
