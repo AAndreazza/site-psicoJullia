@@ -5,8 +5,8 @@ import { Link } from 'gatsby'
 const Hero = () => {
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
     return (
-        <div className='bg-[#fff9f9] '>
-        <header className='absolute inset-x-0 top-0 z-50 bg-[#fff9f9]'>
+        <div className='bg-fundoGeral '>
+        <header className='absolute inset-x-0 top-0 z-50 bg-fundoGeral'>
             <nav className='flex items-center justify-between p-5 lg:px-8' aria-label='Global'>
             <div className='flex lg:flex-1'>
                 {/* Logo: <Link to='#' className='-m-1.5 p-1.5'>
@@ -42,7 +42,7 @@ const Hero = () => {
             {/* Barra lateral - opções e fechar */}
             <div className={`lg:hidden ${isSidebarOpen ? '' : 'hidden'}`} role='dialog' aria-modal='true'>
                 <div className='fixed inset-0 z-50'></div>
-                <div className='fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-[#fff9f9] px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10'>
+                <div className='fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-fundoGeral px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10'>
                     <div className='flex items-center justify-between'>
                     {/* LOGO:  <Link to='/' className='-m-1.5 p-1.5'>
                         <button onClick={() => setIsSidebarOpen(false)}>

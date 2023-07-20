@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 const Footer = () => {
     return (
-        <footer className='bg-[#fff9f9]' aria-labelledby='footer-heading'>
+        <footer className='bg-fundoGeral' aria-labelledby='footer-heading'>
         <h2 id='footer-heading' className='sr-only'>Footer</h2>
         <div className='mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-18 lg:px-8 lg:pt-20'>
             <div className='xl:grid xl:grid-cols-3 xl:gap-8'>

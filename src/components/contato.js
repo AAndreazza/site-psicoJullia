@@ -3,7 +3,7 @@ import React from "react"
 
 const Contato = () => {
     return (
-        <div class="overflow-hidden bg-[#b37e6c] py-32" id="contato">
+        <div class="overflow-hidden bg-fundoEspecifico+ py-32" id="contato">
         <div class="mx-auto max-w-7xl px-4 lg:flex lg:px-48">
         <div class="mx-auto grid max-w-2xl grid-cols-1 lg:mx-0 -my-10 sm:text-left lg:min-w-full lg:max-w-none lg:flex-none">
             <div class="-mt-8 sm:mt-0 lg:col-end-1 lg:w-full lg:max-w-lg">
@@ -55,7 +55,7 @@ const Contato = () => {
             </div>
             <div class="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
             <div class="w-full flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
-            <div class="mx-auto max-w-[32rem] rounded-2xl bg-[#b37e6c] overflow-hidden">
+            <div class="mx-auto max-w-[32rem] rounded-2xl bg-fundoEspecifico+ overflow-hidden">
                 <StaticImage src="../images/fotomulhercelular.jpg" alt="" class="w-full h-[22rem] rounded-2xl object-cover sm:-mt-4"/>
             </div>
             </div>

@@ -12,7 +12,7 @@ import Footer from "../components/footer"
 
 const Index = () => {
     return (
-        <div className='bg-[#fff9f9]'>
+        <div className='bg-fundoGeral'>
             <Seo title='Psicóloga Jullia' description='incluir descrição...' />
             <Hero />
             <Sobre1 />

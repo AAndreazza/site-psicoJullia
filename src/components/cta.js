@@ -2,7 +2,7 @@ import React from "react"
 
 const Cta = () => {
     return (
-        <div class="bg-[#b37e6c]">
+        <div class="bg-fundoEspecifico+">
         <div class="px-6 py-12 sm:px-6 sm:py-12 lg:px-8">
             <div class="mx-auto max-w-2xl text-center">
             <h2 class="text-3xl font-times font-semibold tracking-tight text-[#fff9f9] sm:text-4xl">Descubra seu poder interior!</h2>

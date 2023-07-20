@@ -6,8 +6,8 @@ import React from 'react'
 
 const Sobre1 = () => {
     return (
-        <div className='bg-[#fff9f9] pb-16 pt-36 sm:pb-22 sm:pt-56 xl:pb-8'>
-        <div className='bg-[#d7a493] pb-10 sm:pb-24 xl:pb-0'>
+        <div className='bg-fundoGeral pb-16 pt-36 sm:pb-22 sm:pt-56 xl:pb-8'>
+        <div className='bg-fundoEspecifico- pb-10 sm:pb-24 xl:pb-0'>
             <div className='mx-auto flex max-w-7xl flex-col items-center gap-x-8 gap-y-10 px-6 sm:gap-y-4 lg:px-8 xl:flex-row xl:items-stretch'>
             <div className='-mt-8 sm:-mt-8 mb-8 w-full max-w-2xl xl:-mb-8 xl:w-2/4 xl:flex-none'>
                 <div className='relative aspect-[2/1] h-full md:-mx-8 xl:mx-0 xl:aspect-auto' id='sobremim'>
