@@ -7,7 +7,7 @@ const Contato = () => {
         <div class="mx-auto max-w-7xl px-4 lg:flex lg:px-48">
         <div class="mx-auto grid max-w-2xl grid-cols-1 lg:mx-0 -my-10 sm:text-left lg:min-w-full lg:max-w-none lg:flex-none">
             <div class="-mt-8 sm:mt-0 lg:col-end-1 lg:w-full lg:max-w-lg">
-            <h2 class="text-3xl font-bold tracking-tight text-[#e6d8d4] sm:text-2xl font-serif text-center">CONTATOS</h2>
+            <h2 class="text-3xl font-bold tracking-tight text-[#e6d8d4] sm:text-2xl text-center">CONTATOS</h2>
             <dl class="mt-10 space-y-4 text-base leading-7 text-[#e6d8d4]">
             <div class="flex gap-x-4">
                     <dt class="flex-none">
