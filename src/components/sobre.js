@@ -12,7 +12,7 @@ const Sobre = () => {
         <div className='relative mx-auto max-w-7xl py-24 sm:py-32 lg:px-8 lg:py-36'>
             <div className='pl-0 pr-0 md:mr-auto md:w-2/3 md:pl-16 lg:w-1/2 lg:pl-0 lg:pr-0 xl:pl-8'>
             <h2 className='-mt-20 text-base font-serif leading-7 text-stone-100'>SOBRE MIM</h2>
-            <p className='mt-2 text-lg font-serif font-semibold tracking-tight text-[#c96572] sm:text-xl'>Jullia Andreazza - CRP-xx/xxxxx</p>
+            <p className='mt-2 text-lg font-serif font-semibold tracking-tight text-[#c96572] sm:text-xl'>Jullia Andreazza - CRP-12/16490</p>
             {/* <p className='mt-6 text-base font-semibold leading-7 text-neutral-900 mr-20'>Sou uma psicóloga apaixonada pelo meu trabalho! Com base na minha experiência e conhecimento, estou comprometida em oferecer apoio terapêutico individualizado e abrangente, ajudando meus clientes a superar desafios emocionais, cognitivos e comportamentais. Através de uma abordagem empática e baseada em evidências, estou aqui para auxiliá-lo em seu processo de crescimento, cura e desenvolvimento pessoal.</p> */}
             <blockquote className='mt-6 text-lg leading-7 font-serif text-stone-100 mr-20'>
                 <p>Sou uma psicóloga apaixonada pelo meu trabalho! Com base na minha experiência e conhecimento, estou comprometida em oferecer apoio terapêutico individualizado e abrangente, ajudando meus clientes a superar desafios emocionais, cognitivos e comportamentais. Através de uma abordagem empática e baseada em evidências, estou aqui para auxiliá-lo em seu processo de crescimento, cura e desenvolvimento pessoal.</p>

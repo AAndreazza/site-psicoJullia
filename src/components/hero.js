@@ -1,6 +1,8 @@
-import { StaticImage } from 'gatsby-plugin-image'
+// import { StaticImage } from 'gatsby-plugin-image'
 import React, { useState } from 'react'
 import { Link } from 'gatsby'
+import { CTA_WHATSAPP_MENSAGENS } from '../utils/constants'
+import { getWhatsUrl } from '../utils/index.js'
 
 const Hero = () => {
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -35,7 +37,7 @@ const Hero = () => {
                 <Link to='#contato' className='text-base font-semibold leading-6 text-gray-900'>Contato</Link>
             </div>
             <div className='hidden lg:flex lg:flex-1 lg:justify-end'>
-                <Link to='#link-whatsapp' className='text-base font-semibold leading-6 text-gray-900'>Agendar <span aria-hidden='true'>&rarr;</span></Link>
+                <Link to={getWhatsUrl(CTA_WHATSAPP_MENSAGENS.ctaGeral)} className='text-base font-semibold leading-6 text-gray-900'>Agendar <span aria-hidden='true'>&rarr;</span></Link>
             </div>
             </nav>
 
@@ -70,7 +72,7 @@ const Hero = () => {
                         <Link to='#contato' className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'><button onClick={() => setIsSidebarOpen(false)}>Contato</button></Link>
                         </div>
                         <div className='py-6'>
-                        <Link to='#link-whatsapp' className='-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'>Agendar consulta <span aria-hidden='true'>&rarr;</span></Link>
+                        <Link to={getWhatsUrl(CTA_WHATSAPP_MENSAGENS.ctaGeral)} className='-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'>Agendar consulta <span aria-hidden='true'>&rarr;</span></Link>
                         </div>
                     </div>
                     </div>

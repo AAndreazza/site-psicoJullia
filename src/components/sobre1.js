@@ -22,7 +22,7 @@ const Sobre1 = () => {
                 </svg>
                 <div className='-mt-20 text-base'>
                     <div className='font-semibold text-white'>Sobre mim</div>
-                    <div className='mt-1 text-[#c96572] font-semibold'>Jullia Andreazza - CRP-xx/xxxxx</div>
+                    <div className='mt-1 text-[#c96572] font-semibold'>Jullia Andreazza - CRP-12/16490</div>
                 </div>
                 <blockquote className='mt-5 sm:text-xl leading-8 text-white sm:text-1xl sm:leading-9'>
                     <p>Sou uma psicóloga apaixonada pelo meu trabalho! Com base na minha experiência e conhecimento, estou comprometida em oferecer apoio terapêutico individualizado e abrangente, ajudando meus clientes a superar desafios emocionais, cognitivos e comportamentais. Através de uma abordagem empática e baseada em evidências, estou aqui para auxiliá-lo em seu processo de crescimento, cura e desenvolvimento pessoal.</p>
