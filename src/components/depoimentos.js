@@ -32,7 +32,7 @@ const Depoimentos = () => {
                     <p>“Estamos extremamente satisfeitos com a consultoria de marketing fornecida pela AzzaMarketing. Suas recomendações estratégicas nos permitiram alcançar um crescimento notável em um curto espaço de tempo.”</p>
                     <figcaption className='mt-6 flex items-center gap-x-4'>
                     <div>
-                        <div className='font-semibold'>I.S, 24 anos</div>
+                        <div className='font-semibold'>I.S - 24 anos</div>
                     </div>
                     </figcaption>
                 </figure>

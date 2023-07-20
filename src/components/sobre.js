@@ -5,7 +5,7 @@ import { Link } from 'gatsby'
 const Sobre = () => {
     return (
         <div className='bg-[#fff9f9]'> 
-        <div className='relative bg-[#d7a493] mx-56 mt-36 mb-4 rounded-lg'>
+        <div className='relative bg-[#d7a493] mx-56 mt-20 mb-4 rounded-lg'>
         <div className='relative h-80 overflow-hidden rounded-lg md:absolute md:right-0 md:h-full md:w-1/3 lg:w-1/2'>
             <StaticImage className='h-full w-full object-cover rounded-lg' src='../images/fotomulhercelular.jpg' alt=''/>
         </div>
