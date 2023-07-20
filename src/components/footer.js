@@ -38,16 +38,16 @@ const Footer = () => {
                 </Link>
                 <Link to='' className='text-gray-400 hover:text-gray-500'>
                     <span className='sr-only'>YouTube</span>
-                    <svg className='h-6 w-6' fill='currentColor' viewBox='0 0 24 24' aria-hidden='true'>
+                    <svg className='h-6 w-7' fill='currentColor' viewBox='0 0 24 24' aria-hidden='true'>
                     <path fill-rule='evenodd' d='M19.812 5.418c.861.23 1.538.907 1.768 1.768C21.998 8.746 22 12 22 12s0 3.255-.418 4.814a2.504 2.504 0 0 1-1.768 1.768c-1.56.419-7.814.419-7.814.419s-6.255 0-7.814-.419a2.505 2.505 0 0 1-1.768-1.768C2 15.255 2 12 2 12s0-3.255.417-4.814a2.507 2.507 0 0 1 1.768-1.768C5.744 5 11.998 5 11.998 5s6.255 0 7.814.418ZM15.194 12 10 15V9l5.194 3Z' clip-rule='evenodd' />
                     </svg>
                 </Link>
                 </div>
             </div>
-            <div className='mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0'>
+            <div className='mt-4 grid md:grid-cols-2 gap-4 xl:col-span-2 xl:mt-0'>
                 <div className='md:grid md:grid-cols-2 md:gap-8'>
 
-                <div className='mt-10 md:mt-0'>
+                <div className='mt-8 md:mt-0'>
                     <h3 className='text-sm font-semibold leading-6 text-gray-900'>Informações</h3>
                     <div role='list' className='mt-6 space-y-4'>
                     <div>
@@ -66,8 +66,8 @@ const Footer = () => {
                 </div>
                 
                 <div>
-                    <h3 className='text-sm font-semibold leading-6 text-gray-900'>Serviços</h3>
-                    <div role='list' className='mt-6 space-y-4'>
+                    <h3 className='text-sm font-semibold leading-6 text-gray-900 mt-9 sm:mt-9 lg:mt-0'>Serviços</h3>
+                    <div role='list' className='mt-6 space-y-4 w-72'>
                     <div>
                         <Link to='#link-whatsapp' className='text-sm leading-6 text-gray-600 hover:text-gray-900'>Terapia Presencial e Online</Link>
                     </div>
