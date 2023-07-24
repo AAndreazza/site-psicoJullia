@@ -10,12 +10,12 @@ const Contato = () => {
         <div className='mx-auto max-w-7xl px-4 lg:flex lg:px-48'>
         <div className='mx-auto grid max-w-2xl grid-cols-1 lg:mx-0 -my-10 sm:text-left lg:min-w-full lg:max-w-none lg:flex-none'>
             <div className='-mt-8 sm:mt-0 lg:col-end-1 lg:w-full lg:max-w-lg'>
-            <h2 className='text-3xl font-bold tracking-tight text-[#e6d8d4] sm:text-2xl text-center'>CONTATOS</h2>
-            <dl className='mt-10 space-y-4 text-base leading-7 text-[#e6d8d4]'>
+            {/* <h2 className='text-3xl font-bold tracking-tight text-[#e6d8d4] sm:text-2xl text-center'>CONTATOS</h2> */}
+            <dl className='mt-10 space-y-4 text-base leading-7 text-slate-100'>
             <div className='flex gap-x-4'>
                     <dt className='flex-none'>
                     <span className='sr-only'>Endereco</span>
-                    <svg className='h-7 w-6 text-[#d6ab9f]' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' aria-hidden='true'>
+                    <svg className='h-7 w-6 text-[#78dbbf]' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' aria-hidden='true'>
                         <path stroke-linecap='round' stroke-linejoin='round' d='M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008z' />
                     </svg>
                     </dt>
@@ -26,7 +26,7 @@ const Contato = () => {
                     <span className='sr-only'>Whatsapp</span>
                     <svg
                         xmlns='http://www.w3.org/2000/svg'
-                        className='h-6 w-6 text-[#d6ab9f]'
+                        className='h-6 w-6 text-[#78dbbf]'
                         fill='currentColor'
                         viewBox='0 0 24 24'>
                         <path
@@ -38,7 +38,7 @@ const Contato = () => {
                 <div className='flex gap-x-4'>
                     <dt className='flex-none'>
                     <span className='sr-only'>Email</span>
-                    <svg className='h-7 w-6 text-[#d6ab9f]' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' aria-hidden='true'>
+                    <svg className='h-7 w-6 text-[#78dbbf]' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' aria-hidden='true'>
                         <path stroke-linecap='round' stroke-linejoin='round' d='M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75' />
                     </svg>
                     </dt>
@@ -49,7 +49,7 @@ const Contato = () => {
             <div className='mt-10 flex justify-center'>
                 <Link 
                     to={getWhatsUrl(CTA_WHATSAPP_MENSAGENS.ctaGeral)} 
-                    className='rounded-md bg-[#e6d8d4] px-8 py-4 mb-8 text-base font-semibold text-black shadow-sm hover:bg-[#e0bcaf] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#e0bcaf]'
+                    className='rounded-md bg-[#78dbbf] drop-shadow-2xl px-8 py-4 mb-8 text-base font-semibold text-black shadow-sm hover:bg-[#b1ffe9] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#b1ffe9]'
                 >
                     Quero agendar uma consulta   
                     <span aria-hidden='true'> &rarr;</span>
