@@ -4,5 +4,5 @@ export const URLS = {
   }
 
 export const CTA_WHATSAPP_MENSAGENS = {
-  ctaGeral: 'Olá! Estive no site e tenho interesse em agendar um consulta. Poderia me ajudar?'
+  ctaGeral: 'Olá! Estive no site e tenho interesse em agendar uma consulta. Poderia me ajudar?'
 }
