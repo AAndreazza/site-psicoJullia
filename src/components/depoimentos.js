@@ -4,14 +4,14 @@ const Depoimentos = () => {
     return (
         <div className='relative isolate bg-fundoGeral pb-32 pt-24 sm:pt-14'>
         <div className='absolute inset-x-0 top-1/2 -z-10 -translate-y-1/2 transform-gpu overflow-hidden opacity-30 blur-3xl' aria-hidden='true'>
-            <div className='ml-[max(50%,38rem)] aspect-[1313/771] w-[82.0625rem] bg-gradient-to-tr from-[#f9fbff] to-[#c99696]'></div>
+            <div className='ml-[max(50%,38rem)] aspect-[1313/771] w-[82.0625rem] bg-gradient-to-tr from-[#9fa0a1] to-[#e5e7eb]'></div>
         </div>
         <div className='absolute inset-x-0 top-0 -z-10 flex transform-gpu overflow-hidden pt-32 opacity-25 blur-3xl sm:pt-40 xl:justify-end' aria-hidden='true'>
-            <div className='ml-[-22rem] aspect-[1313/771] w-[82.0625rem] flex-none origin-top-right rotate-[30deg] bg-gradient-to-tr from-fundoGeral to-[#c99696] xl:ml-0 xl:mr-[calc(50%-12rem)]'></div>
+            <div className='ml-[-22rem] aspect-[1313/771] w-[82.0625rem] flex-none origin-top-right rotate-[30deg] bg-gradient-to-tr from-fundoGeral to-[#9fa0a1] xl:ml-0 xl:mr-[calc(50%-12rem)]'></div>
         </div>
         <div className='mx-auto max-w-7xl px-6 lg:px-8' id='depoimentos'>
             <div className='mx-auto max-w-xl text-center'>
-            <h2 className='text-2xl font-semibold leading-8 tracking-tight text-[#b37e6c]' id='depoimentos'>Depoimentos</h2>
+            <h2 className='text-2xl font-semibold leading-8 tracking-tight text-[#065f46]' id='depoimentos'>Depoimentos</h2>
             </div>
             <div className='mx-auto mt-16 grid max-w-2xl grid-cols-1 grid-rows-1 gap-8 text-sm leading-6 text-gray-900 sm:mt-14 sm:grid-cols-2 xl:mx-0 xl:max-w-none xl:grid-flow-col xl:grid-cols-4'>
             <figure className='col-span-2 hidden sm:block sm:rounded-2xl sm:bg-fundoGeral sm:shadow-lg sm:ring-1 sm:ring-gray-900/5 xl:col-start-2 xl:row-end-1'>
