@@ -18,10 +18,10 @@ const Sobre1 = () => {
                     <use href='#b56e9dab-6ccb-4d32-ad02-6b4bb5d9bbeb' x='86' />
                 </svg>
                 <div className='-mt-20 text-base'>
-                    <div className='font-semibold text-white text-lg'>Jullia Andreazza - CRP 12/16490</div>
-                    <div className='mt-1 text-white'>Psicóloga Clínica e Neuropsicóloga</div>
+                    <div className='font-bold text-white text-lg'>Júllia Andreazza - CRP 12/16490</div>
+                    <div className='mt-1 text-[#a7f5df]'>Psicóloga Clínica e Neuropsicóloga</div>
                 </div>
-                <blockquote className='mt-5 sm:text-xl leading-8 text-white sm:text-1xl sm:leading-9'>
+                <blockquote className='mt-5 sm:text-xl leading-8 text-white sm:leading-9'>
                     <p>Sou uma psicóloga apaixonada pelo meu trabalho! Com base na minha experiência <br/>e conhecimento, estou comprometida em <br/>oferecer apoio terapêutico individualizado <br/>e abrangente, ajudando meus clientes a <br/>superar desafios emocionais, cognitivos e comportamentais. Através de uma aborda-<br/>gem empática e baseada em evidências, <br/>estou aqui para auxiliá-lo em seu processo <br/>de crescimento e desenvolvimento pessoal.</p>
                 </blockquote>
                 

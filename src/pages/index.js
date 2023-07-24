@@ -1,8 +1,7 @@
 import React from "react"
 import Seo from "../components/seo"
 import Hero from "../components/hero"
-import Sobre from "../components/sobre"
-import Sobre1 from "../components/sobre1"
+import Sobre1 from "../components/sobre"
 import Servicos from "../components/servicos"
 import Cta from "../components/cta"
 import Depoimentos from "../components/depoimentos"
@@ -15,7 +14,7 @@ const Index = () => {
         <div className='bg-fundoGeral'>
             <Seo title='Psicóloga Jullia' description='incluir descrição...' />
             <Hero />
-            <Sobre1 />
+            <Sobre1/>
             <Servicos />
             <Cta />
             <Depoimentos />
