@@ -31,13 +31,13 @@ const Hero = () => {
                 </button>
             </div>
             <div className='hidden lg:flex lg:gap-x-14'>
-                <Link to='#sobremim' className='text-base font-semibold leading-6 text-gray-900'>Sobre mim</Link>
-                <Link to='#servicos' className='text-base font-semibold leading-6 text-gray-900'>Serviços</Link>
-                <Link to='#depoimentos' className='text-base font-semibold leading-6 text-gray-900'>Depoimentos</Link>
-                <Link to='#contato' className='text-base font-semibold leading-6 text-gray-900'>Contato</Link>
+                <Link to='#sobremim' className='text-lg font-semibold leading-6 text-[#065f46]'>Sobre mim</Link>
+                <Link to='#servicos' className='text-lg font-semibold leading-6 text-[#065f46]'>Serviços</Link>
+                <Link to='#depoimentos' className='text-lg font-semibold leading-6 text-[#065f46]'>Depoimentos</Link>
+                <Link to='#contato' className='text-lg font-semibold leading-6 text-[#065f46]'>Contato</Link>
             </div>
             <div className='hidden lg:flex lg:flex-1 lg:justify-end'>
-                <Link to={getWhatsUrl(CTA_WHATSAPP_MENSAGENS.ctaGeral)} className='text-base font-semibold leading-6 text-gray-900'>Agendar <span aria-hidden='true'>&rarr;</span></Link>
+                <Link to={getWhatsUrl(CTA_WHATSAPP_MENSAGENS.ctaGeral)} className='text-lg font-semibold leading-6 text-[#065f46]'>Agendar <span aria-hidden='true'>&rarr;</span></Link>
             </div>
             </nav>
 
@@ -66,13 +66,13 @@ const Hero = () => {
                     <div className='mt-6 flow-root'>
                     <div className='-my-6 divide-y divide-gray-500/10'>
                         <div className='space-y-2 py-6'>
-                        <Link to='#sobremim' className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'><button onClick={() => setIsSidebarOpen(false)}>Sobre mim</button></Link>
-                        <Link to='#servicos' className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'><button onClick={() => setIsSidebarOpen(false)}>Serviços</button></Link>
-                        <Link to='#depoimentos' className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'><button onClick={() => setIsSidebarOpen(false)}>Depoimentos</button></Link>
-                        <Link to='#contato' className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'><button onClick={() => setIsSidebarOpen(false)}>Contato</button></Link>
+                        <Link to='#sobremim' className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-[#065f46] hover:bg-gray-50'><button onClick={() => setIsSidebarOpen(false)}>Sobre mim</button></Link>
+                        <Link to='#servicos' className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-[#065f46] hover:bg-gray-50'><button onClick={() => setIsSidebarOpen(false)}>Serviços</button></Link>
+                        <Link to='#depoimentos' className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-[#065f46] hover:bg-gray-50'><button onClick={() => setIsSidebarOpen(false)}>Depoimentos</button></Link>
+                        <Link to='#contato' className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-[#065f46] hover:bg-gray-50'><button onClick={() => setIsSidebarOpen(false)}>Contato</button></Link>
                         </div>
                         <div className='py-6'>
-                        <Link to={getWhatsUrl(CTA_WHATSAPP_MENSAGENS.ctaGeral)} className='-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'>Agendar consulta <span aria-hidden='true'>&rarr;</span></Link>
+                        <Link to={getWhatsUrl(CTA_WHATSAPP_MENSAGENS.ctaGeral)} className='-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-[#065f46] hover:bg-gray-50'>Agendar<span aria-hidden='true'> &rarr;</span></Link>
                         </div>
                     </div>
                     </div>
