@@ -1,17 +1,17 @@
 import React from 'react'
-import { StaticImage } from 'gatsby-plugin-image'
 import { Link } from 'gatsby'
 import { CTA_WHATSAPP_MENSAGENS } from '../utils/constants'
 import { getWhatsUrl } from '../utils/index.js'
+import fotoTeste from '../images/fotoTeste.webp'
 
 const Contato = () => {
     return (
         <div className='overflow-hidden bg-fundoEspecifico+ py-32' id='contato'>
         <div className='mx-auto max-w-7xl px-4 lg:flex lg:px-48'>
-        <div className='mx-auto grid max-w-2xl grid-cols-1 lg:mx-0 -my-10 sm:text-left lg:min-w-full lg:max-w-none lg:flex-none'>
-            <div className='-mt-8 sm:mt-0 lg:col-end-1 lg:w-full lg:max-w-lg'>
+        <div className='mx-auto grid max-w-2xl grid-cols-1 gap-x-8 -my-10 lg:min-w-full lg:max-w-none'>
+            <div className='-mt-8 sm:mt-0 sm:col-end-1'>
             {/* <h2 className='text-3xl font-bold tracking-tight text-[#e6d8d4] sm:text-2xl text-center'>CONTATOS</h2> */}
-            <dl className='mt-10 space-y-4 text-base leading-7 text-slate-100'>
+            <dl className='mt-0 sm:mt-10 space-y-4 text-base leading-7 text-slate-100'>
             <div className='flex gap-x-4'>
                     <dt className='flex-none'>
                     <span className='sr-only'>Endereco</span>
@@ -56,12 +56,8 @@ const Contato = () => {
                 </Link>
             </div>
             </div>
-            <div className='flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents'>
-            <div className='w-full flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end'>
             <div className='mx-auto max-w-[32rem] rounded-2xl bg-fundoEspecifico+ overflow-hidden'>
-                <StaticImage src='../images/fotomulhercelular.jpg' alt='' className='w-full h-[22rem] rounded-2xl object-cover sm:-mt-4'/>
-            </div>
-            </div>
+                <img src={fotoTeste} alt='' className='w-[30rem] h-[22rem] rounded-2xl object-cover sm:-mt-4'/>
             </div>
         </div>
         </div>
