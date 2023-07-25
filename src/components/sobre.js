@@ -1,14 +1,14 @@
-import { StaticImage } from 'gatsby-plugin-image'
 import React from 'react'
+import fotoTeste from '../images/fotoTeste.webp'
 
-const Sobre1 = () => {
+const Sobre = () => {
     return (
         <div className='bg-fundoGeral pb-16 pt-36 sm:pb-22 sm:pt-40 xl:pb-8'>
         <div className='bg-fundoEspecifico- pb-10 sm:pb-24 xl:pb-0'>
             <div className='mx-auto flex max-w-7xl flex-col items-center gap-x-8 gap-y-10 px-6 sm:gap-y-4 lg:px-8 xl:flex-row xl:items-stretch'>
             <div className='-mt-8 sm:-mt-8 mb-8 w-full max-w-2xl xl:-mb-8 xl:w-2/4 xl:flex-none'>
-                <div className='relative aspect-[2/1] h-full md:-mx-8 xl:mx-0 xl:aspect-auto' id='sobremim'>
-                <StaticImage className='absolute inset-0 h-full w-full rounded-2xl object-cover shadow-2xl' src='../images/fotomulhercelular.jpg' alt=''/>
+                <div className='relative h-full md:-mx-8 xl:mx-0 xl:aspect-auto' id='sobremim'>
+                <img className='aspect-[2/1] object-cover rounded-2xl h-full w-full shadow-2xl' src={fotoTeste} alt='Jullia....'/>
                 </div>
             </div>
             <div className='w-full max-w-2xl xl:max-w-none xl:flex-auto xl:px-16 xl:py-24'>
@@ -18,10 +18,10 @@ const Sobre1 = () => {
                     <use href='#b56e9dab-6ccb-4d32-ad02-6b4bb5d9bbeb' x='86' />
                 </svg>
                 <div className='-mt-20 text-base'>
-                    <div className='font-bold text-white text-lg'>Júllia Andreazza - CRP 12/16490</div>
-                    <div className='mt-1 text-[#a7f5df]'>Psicóloga Clínica e Neuropsicóloga</div>
+                    <div className='font-bold text-white text-lg text-center sm:text-left'>Júllia Andreazza - CRP 12/16490</div>
+                    <div className='mt-1 text-[#a7f5df] text-center sm:text-left'>Psicóloga Clínica e Neuropsicóloga</div>
                 </div>
-                <blockquote className='mt-5 sm:text-xl leading-8 text-white sm:leading-9'>
+                <blockquote className='mt-5 sm:text-xl leading-8 text-white text-center sm:text-left sm:leading-9'>
                     <p>Sou uma psicóloga apaixonada pelo meu trabalho! Com base na minha experiência <br/>e conhecimento, estou comprometida em <br/>oferecer apoio terapêutico individualizado <br/>e abrangente, ajudando meus clientes a <br/>superar desafios emocionais, cognitivos e comportamentais. Através de uma aborda-<br/>gem empática e baseada em evidências, <br/>estou aqui para auxiliá-lo em seu processo <br/>de crescimento e desenvolvimento pessoal.</p>
                 </blockquote>
                 
@@ -34,4 +34,4 @@ const Sobre1 = () => {
     )
 }
 
-export default Sobre1
+export default Sobre

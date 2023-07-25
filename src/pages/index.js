@@ -7,6 +7,7 @@ import Cta from "../components/cta"
 import Depoimentos from "../components/depoimentos"
 import Contato from "../components/contato"
 import Footer from "../components/footer"
+import SobreTeste from "../components/sobreTeste"
 
 
 const Index = () => {
