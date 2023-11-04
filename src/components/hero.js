@@ -31,13 +31,13 @@ const Hero = () => {
                 </button>
             </div>
             <div className='hidden lg:flex lg:gap-x-14'>
-                <Link to='#sobremim' className='text-lg font-semibold leading-6 text-[#065f46]'>Sobre mim</Link>
-                <Link to='#servicos' className='text-lg font-semibold leading-6 text-[#065f46]'>Serviços</Link>
-                <Link to='#depoimentos' className='text-lg font-semibold leading-6 text-[#065f46]'>Depoimentos</Link>
-                <Link to='#contato' className='text-lg font-semibold leading-6 text-[#065f46]'>Contato</Link>
+                <Link to='#sobremim' className='text-xl font-normal leading-6 text-[#065f46]'>SOBRE MIM</Link>
+                <Link to='#servicos' className='text-xl font-normal leading-6 text-[#065f46]'>SERVIÇOS</Link>
+                <Link to='#depoimentos' className='text-xl font-normal leading-6 text-[#065f46]'>DEPOIMENTOS</Link>
+                <Link to='#contato' className='text-xl font-normal leading-6 text-[#065f46]'>CONTATO</Link>
             </div>
             <div className='hidden lg:flex lg:flex-1 lg:justify-end'>
-                <Link to={getWhatsUrl(CTA_WHATSAPP_MENSAGENS.ctaGeral)} className='text-lg font-semibold leading-6 text-[#065f46]'>Agendar <span aria-hidden='true'>&rarr;</span></Link>
+                <Link to={getWhatsUrl(CTA_WHATSAPP_MENSAGENS.ctaGeral)} className='text-xl font-normal leading-6 text-[#065f46]'>Agendar <span aria-hidden='true'>&rarr;</span></Link>
             </div>
             </nav>
 
