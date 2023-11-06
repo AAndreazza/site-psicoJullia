@@ -66,13 +66,13 @@ const Hero = () => {
                     <div className='mt-6 flow-root'>
                     <div className='-my-6 divide-y divide-gray-500/10'>
                         <div className='space-y-2 py-6'>
-                        <Link to='#sobremim' className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-[#065f46] hover:bg-gray-50'><button onClick={() => setIsSidebarOpen(false)}>Sobre mim</button></Link>
-                        <Link to='#servicos' className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-[#065f46] hover:bg-gray-50'><button onClick={() => setIsSidebarOpen(false)}>Serviços</button></Link>
-                        <Link to='#depoimentos' className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-[#065f46] hover:bg-gray-50'><button onClick={() => setIsSidebarOpen(false)}>Depoimentos</button></Link>
-                        <Link to='#contato' className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-[#065f46] hover:bg-gray-50'><button onClick={() => setIsSidebarOpen(false)}>Contato</button></Link>
+                        <Link to='#sobremim' className='-mx-3 block rounded-lg px-3 py-2 text-xl font-light leading-7 text-[#065f46] hover:bg-gray-50'><button onClick={() => setIsSidebarOpen(false)}>SOBRE MIM</button></Link>
+                        <Link to='#servicos' className='-mx-3 block rounded-lg px-3 py-2 text-xl font-light leading-7 text-[#065f46] hover:bg-gray-50'><button onClick={() => setIsSidebarOpen(false)}>SERVIÇOS</button></Link>
+                        <Link to='#depoimentos' className='-mx-3 block rounded-lg px-3 py-2 text-xl font-light leading-7 text-[#065f46] hover:bg-gray-50'><button onClick={() => setIsSidebarOpen(false)}>DEPOIMENTOS</button></Link>
+                        <Link to='#contato' className='-mx-3 block rounded-lg px-3 py-2 text-xl font-light leading-7 text-[#065f46] hover:bg-gray-50'><button onClick={() => setIsSidebarOpen(false)}>CONTATO</button></Link>
                         </div>
                         <div className='py-6'>
-                        <Link to={getWhatsUrl(CTA_WHATSAPP_MENSAGENS.ctaGeral)} className='-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-[#065f46] hover:bg-gray-50'>Agendar<span aria-hidden='true'> &rarr;</span></Link>
+                        <Link to={getWhatsUrl(CTA_WHATSAPP_MENSAGENS.ctaGeral)} className='-mx-3 block rounded-lg px-3 py-2.5 text-xl font-light leading-7 text-[#065f46] hover:bg-gray-50'>Agendar<span aria-hidden='true'> &rarr;</span></Link>
                         </div>
                     </div>
                     </div>
