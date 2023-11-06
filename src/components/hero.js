@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import { Link } from 'gatsby'
 import { CTA_WHATSAPP_MENSAGENS } from '../utils/constants'
 import { getWhatsUrl } from '../utils/index.js'
+import Logo from '../images/logoJullia01M.png'
 
 const Hero = () => {
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -11,10 +12,10 @@ const Hero = () => {
         <header className='absolute inset-x-0 top-0 z-50 bg-fundoGeral'>
             <nav className='flex items-center justify-between p-5 lg:px-8' aria-label='Global'>
             <div className='flex lg:flex-1'>
-                {/* Logo: <Link to='#' className='-m-1.5 p-1.5'>
+                <Link to='#' className='-m-1.5 p-1.5'>
                 <span className='sr-only'>Psicóloga Jullia</span>
-                <StaticImage className='h-8 w-auto' src='' alt=''/> 
-                </Link> */}
+                <img className='h-12 w-12 rounded-full' src={Logo} alt='Logo'/> 
+                </Link> 
             </div>
 
             {/* Barra lateral - abrir */}

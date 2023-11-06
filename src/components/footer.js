@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import { CTA_WHATSAPP_MENSAGENS, URLS } from '../utils/constants'
 import { getWhatsUrl } from '../utils/index.js'
+import Logo from '../images/logoJullia01.png'
 
 const Footer = () => {
     return (
@@ -12,7 +13,7 @@ const Footer = () => {
             <div className='space-y-8'>
                 <Link to='#'>
                 <span className='sr-only'>Psicológica Jullia</span>
-                <img className='h-12 w-12 rounded-full' src="" alt='logo'/>
+                <img className='h-12 w-12 rounded-full' src={Logo} alt='logo'/>
                 </Link>
                 <p className='text-sm font-light leading-6 text-gray-600'>Alguma frase, se quiser</p>
                 <div className='flex space-x-6'>
