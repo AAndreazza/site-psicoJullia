@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 import { Link as ScrollLink } from "react-scroll";
 import { CTA_WHATSAPP_MENSAGENS } from '../utils/constants'
 import { getWhatsUrl } from '../utils/index.js'
-import Logo from '../images/logoJullia01M.png'
+import Logo from '../images/logoJullia.png'
 
 const Hero = () => {
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -15,7 +15,7 @@ const Hero = () => {
             <div className='flex lg:flex-1'>
                 <Link to='#' className='-m-1.5 p-1.5'>
                 <span className='sr-only'>Psicóloga Jullia</span>
-                <img className='h-12 w-12 rounded-full' src={Logo} alt='Logo'/> 
+                <img className='h-20 w-20 rounded-full' src={Logo} alt='Logo'/> 
                 </Link> 
             </div>
 
