@@ -7,15 +7,15 @@ import Logo from '../images/logoJulliaOficial.png'
 const Footer = () => {
     return (
         <footer className='bg-fundoGeral' aria-labelledby='footer-heading'>
-        <h2 id='footer-heading' className='sr-only'>Footer</h2>
-        <div className='mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-18 lg:px-8 lg:pt-20'>
+        <h2 className='sr-only'>Footer</h2>
+        <div className='mx-auto max-w-7xl px-6 pb-8 pt-6 sm:pt-12 lg:px-8 lg:pt-10'>
             <div className='xl:grid xl:grid-cols-3 xl:gap-8'>
-            <div className='space-y-8'>
+            <div>
                 <Link to='#'>
                 <span className='sr-only'>Psicológica Jullia</span>
                 <img className='h-20 w-20 rounded-full' src={Logo} alt='logo'/>
                 </Link>
-                <div className='flex space-x-6'>
+                <div className='flex space-x-4 ml-3'>
                 <Link to={getWhatsUrl(CTA_WHATSAPP_MENSAGENS.ctaGeral)}  className='text-gray-400 hover:text-gray-500'>
                     <span className='sr-only'>Whatsapp</span>
                     <svg
