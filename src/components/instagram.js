@@ -6,8 +6,8 @@ const Instagram = () => {
     return (
         <div className='bg-fundoGeral'>
         <div className='mx-auto max-w-2xl px-4 py-16 sm:px-0 sm:py-14 lg:max-w-7xl lg:px-10' id='instagram'>
-        <h2 className='text-2xl text-center font-normal leading-8 tracking-tight text-[#065f46]'>INSTAGRAM</h2>
-        <h2 className='text-2xl text-center font-light mt-8 leading-8 tracking-tight text-[#065f46]'>Acompanhe meu trabalho nas redes sociais!</h2>
+        <h2 className='text-xl text-center font-normal leading-8 tracking-tight text-[#065f46]'>Instagram</h2>
+        <h2 className='text-xl text-center font-light mt-4 leading-8 tracking-tight text-[#065f46]'>Acompanhe meu trabalho nas redes sociais</h2>
             <div className='mt-10 grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8'>
             <div className='group relative'>
                 <Link to=''>

@@ -15,7 +15,6 @@ const Footer = () => {
                 <span className='sr-only'>Psicológica Jullia</span>
                 <img className='h-20 w-20 rounded-full' src={Logo} alt='logo'/>
                 </Link>
-                <p className='text-sm font-light leading-6 text-gray-600'>Alguma frase, se quiser</p>
                 <div className='flex space-x-6'>
                 <Link to={getWhatsUrl(CTA_WHATSAPP_MENSAGENS.ctaGeral)}  className='text-gray-400 hover:text-gray-500'>
                     <span className='sr-only'>Whatsapp</span>
@@ -45,37 +44,23 @@ const Footer = () => {
                 <div className='md:grid md:grid-cols-2 md:gap-8'>
 
                 <div className='mt-8 md:mt-0'>
-                    <h3 className='text-sm font-semibold leading-6 text-gray-900'>Informações</h3>
-                    <div role='list' className='mt-6 space-y-4'>
-                    <div>
-                        <Link to='#sobremim' className='text-sm font-light leading-6 text-gray-600 hover:text-gray-900'>Sobre mim</Link>
-                    </div>
-                    <div>
-                        <Link to='#depoimentos' className='text-sm font-light leading-6 text-gray-600 hover:text-gray-900'>Depoimentos</Link>
-                    </div>
-                    <div>
-                        <Link to='#convenios'className='text-sm font-light leading-6 text-gray-600 hover:text-gray-900'>Convênios</Link>
-                    </div>
-                    <div>
-                        <Link to='#contato' className='text-sm font-light leading-6 text-gray-600 hover:text-gray-900'>Contatos</Link>
-                    </div>
-                    </div>
+                    <Link to='#sobremim'><h3 className='text-sm font-semibold leading-6 text-gray-900'>Sobre mim</h3></Link>
                 </div>
                 
                 <div>
                     <h3 className='text-sm font-semibold leading-6 text-gray-900 mt-9 sm:mt-9 lg:mt-0'>Serviços</h3>
                     <div role='list' className='mt-6 space-y-4 w-72'>
                     <div>
-                        <Link to='#link-whatsapp' className='text-sm font-light leading-6 text-gray-600 hover:text-gray-900'>Terapia Presencial e Online</Link>
+                        <Link to='#link-whatsapp' className='text-sm font-light leading-6 text-gray-600 hover:text-gray-900'>Terapia para Adultos</Link>
+                    </div>
+                    <div>
+                        <Link to='#link-whatsapp' className='text-sm font-light leading-6 text-gray-600 hover:text-gray-900'>Terapia para Idosos</Link>
                     </div>
                     <div>
                         <Link to='#link-whatsapp' className='text-sm font-light leading-6 text-gray-600 hover:text-gray-900'>Avaliação Psicológica</Link>
                     </div>
                     <div>
-                        <Link to='#link-whatsapp' className='text-sm font-light leading-6 text-gray-600 hover:text-gray-900'>Avaliação Neuropsicológica</Link>
-                    </div>
-                    <div>
-                        <Link to='#link-whatsapp' className='text-sm font-light leading-6 text-gray-600 hover:text-gray-900'>Reabilitação Neuropsicológica</Link>
+                        <Link to='#link-whatsapp' className='text-sm font-light leading-6 text-gray-600 hover:text-gray-900'>Supervisão para Psicólogos</Link>
                     </div>
                     </div>
                 </div>
@@ -85,7 +70,7 @@ const Footer = () => {
             </div>
             </div>
             <div className='mt-6 border-t border-gray-900/10 pt-4 sm:mt-2 lg:mt-2'>
-            <p className='text-xs font-light leading-5 text-gray-500'>&copy; 2023 por Jullia Andreazza</p>
+            <p className='text-xs font-light leading-5 text-gray-500'>&copy; 2024 por Jullia Andreazza</p>
             </div>
         </div>
         </footer>

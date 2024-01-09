@@ -1,5 +1,5 @@
 export const URLS = {
-    whatsapp: 'https://wa.me/5547988735478?text=',
+    whatsapp: 'https://wa.me/5547988904185?text=',
     instagram: 'https://www.instagram.com/psijullia',
   }
 

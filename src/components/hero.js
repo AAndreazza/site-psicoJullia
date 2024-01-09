@@ -15,7 +15,7 @@ const Hero = () => {
             <div className='flex lg:flex-1'>
                 <Link to='#' className='-m-1.5 p-1.5'>
                 <span className='sr-only'>Psicóloga Jullia</span>
-                <img className='h-20 w-20 rounded-full' src={Logo} alt='Logo'/> 
+                <img className='h-24 w-24 lg:h-20 lg:w-20 rounded-full' src={Logo} alt='Logo'/> 
                 </Link> 
             </div>
 
