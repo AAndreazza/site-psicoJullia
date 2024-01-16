@@ -11,7 +11,7 @@ import Footer from "../components/footer"
 const Index = () => {
     return (
         <div className='bg-fundoGeral'>
-            <Seo title='Psicóloga Jullia' description='incluir descrição...' />
+            <Seo title='Júllia Andreazza - Psicóloga' description='Terapia Cognitivo-Comportamental (TCC) e Neuropsicologia para adultos e idosos. Psicologia baseada em evidências.' />
             <Hero />
             <Sobre1/>
             <Servicos />
