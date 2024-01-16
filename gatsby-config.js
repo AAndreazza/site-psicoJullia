@@ -7,7 +7,7 @@ module.exports = {
         {
             resolve: 'gatsby-plugin-manifest',
             options: {
-                icon: 'src/images/logoJullia01Maior.png',
+                icon: 'src/images/logoMaior.png',
             }
         }
     ],

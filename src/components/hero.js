@@ -1,10 +1,9 @@
-// import { StaticImage } from 'gatsby-plugin-image'
 import React, { useState } from 'react'
 import { Link } from 'gatsby'
 import { Link as ScrollLink } from "react-scroll";
 import { CTA_WHATSAPP_MENSAGENS } from '../utils/constants'
 import { getWhatsUrl } from '../utils/index.js'
-import Logo from '../images/logoJulliaOficial.png'
+import Logo from '../images/logoSemFundo.png'
 
 const Hero = () => {
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -33,10 +32,10 @@ const Hero = () => {
                 </button>
             </div>
             <div className='hidden lg:flex lg:gap-x-14'>
-                <ScrollLink to='sobremim' spy={true} smooth={true} className='cursor-pointer text-xl font-normal leading-6 text-[#065f46]'>SOBRE MIM</ScrollLink >
-                <ScrollLink to='servicos' spy={true} smooth={true} className='cursor-pointer text-xl font-normal leading-6 text-[#065f46]'>SERVIÇOS</ScrollLink >
-                <ScrollLink to='instagram' spy={true} smooth={true} className='cursor-pointer text-xl font-normal leading-6 text-[#065f46]'>INSTAGRAM</ScrollLink >
-                <ScrollLink to='contato' spy={true} smooth={true} className='cursor-pointer text-xl font-normal leading-6 text-[#065f46]'>CONTATO</ScrollLink >
+                <ScrollLink to='sobremim' spy={true} smooth={true} className='cursor-pointer text-xl font-normal leading-6 text-[#065f46]'>Sobre mim</ScrollLink >
+                <ScrollLink to='servicos' spy={true} smooth={true} className='cursor-pointer text-xl font-normal leading-6 text-[#065f46]'>Serviços</ScrollLink >
+                <ScrollLink to='instagram' spy={true} smooth={true} className='cursor-pointer text-xl font-normal leading-6 text-[#065f46]'>Instagram</ScrollLink >
+                <ScrollLink to='contato' spy={true} smooth={true} className='cursor-pointer text-xl font-normal leading-6 text-[#065f46]'>Contato</ScrollLink >
             </div>
             <div className='hidden lg:flex lg:flex-1 lg:justify-end'>
                 <Link to={getWhatsUrl(CTA_WHATSAPP_MENSAGENS.ctaGeral)} className='text-xl font-normal leading-6 text-[#065f46]'>Agendar <span aria-hidden='true'>&rarr;</span></Link>
@@ -68,10 +67,10 @@ const Hero = () => {
                     <div className='mt-6 flow-root'>
                     <div className='-my-6 divide-y divide-gray-500/10'>
                         <div className='space-y-2 py-6'>
-                        <ScrollLink to='sobremim' spy={true} smooth={true} className='cursor-pointer -mx-3 block rounded-lg px-3 py-2 text-xl font-light leading-7 text-[#065f46] hover:bg-gray-50'><button onClick={() => setIsSidebarOpen(false)}>SOBRE MIM</button></ScrollLink>
-                        <ScrollLink to='servicos' spy={true} smooth={true} className='cursor-pointer -mx-3 block rounded-lg px-3 py-2 text-xl font-light leading-7 text-[#065f46] hover:bg-gray-50'><button onClick={() => setIsSidebarOpen(false)}>SERVIÇOS</button></ScrollLink>
-                        <ScrollLink to='instagram' spy={true} smooth={true} className='cursor-pointer -mx-3 block rounded-lg px-3 py-2 text-xl font-light leading-7 text-[#065f46] hover:bg-gray-50'><button onClick={() => setIsSidebarOpen(false)}>INSTAGRAM</button></ScrollLink>
-                        <ScrollLink to='contato' spy={true} smooth={true} className='cursor-pointer -mx-3 block rounded-lg px-3 py-2 text-xl font-light leading-7 text-[#065f46] hover:bg-gray-50'><button onClick={() => setIsSidebarOpen(false)}>CONTATO</button></ScrollLink>
+                        <ScrollLink to='sobremim' spy={true} smooth={true} className='cursor-pointer -mx-3 block rounded-lg px-3 py-2 text-xl font-light leading-7 text-[#065f46] hover:bg-gray-50'><button onClick={() => setIsSidebarOpen(false)}>Sobre mim</button></ScrollLink>
+                        <ScrollLink to='servicos' spy={true} smooth={true} className='cursor-pointer -mx-3 block rounded-lg px-3 py-2 text-xl font-light leading-7 text-[#065f46] hover:bg-gray-50'><button onClick={() => setIsSidebarOpen(false)}>Serviços</button></ScrollLink>
+                        <ScrollLink to='instagram' spy={true} smooth={true} className='cursor-pointer -mx-3 block rounded-lg px-3 py-2 text-xl font-light leading-7 text-[#065f46] hover:bg-gray-50'><button onClick={() => setIsSidebarOpen(false)}>Instagram</button></ScrollLink>
+                        <ScrollLink to='contato' spy={true} smooth={true} className='cursor-pointer -mx-3 block rounded-lg px-3 py-2 text-xl font-light leading-7 text-[#065f46] hover:bg-gray-50'><button onClick={() => setIsSidebarOpen(false)}>Contato</button></ScrollLink>
                         </div>
                         <div className='py-6'>
                         <Link to={getWhatsUrl(CTA_WHATSAPP_MENSAGENS.ctaGeral)} className='-mx-3 block rounded-lg px-3 py-2.5 text-xl font-light leading-7 text-[#065f46] hover:bg-gray-50'>Agendar<span aria-hidden='true'> &rarr;</span></Link>
@@ -81,21 +80,7 @@ const Hero = () => {
                 </div>
             </div>
         </header>
-
-{ /* Degradê:
-        <div className='relative isolate px-6 pt-14 lg:px-8'>
-            <div className='absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80' aria-hidden='true'>
-            <div className='relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#c96572] to-[#e7bbc1] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]'></div>
-            </div>
-            
-            <div className='absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]' aria-hidden='true'>
-            <div className='relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#e7bbc1] to-[#c96572] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]'></div>
-            </div>
         </div>
-*/ }
-        </div>
-
-
     )
 }
 

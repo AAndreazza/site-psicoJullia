@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import { CTA_WHATSAPP_MENSAGENS, URLS } from '../utils/constants'
 import { getWhatsUrl } from '../utils/index.js'
-import Logo from '../images/logoJulliaOficial.png'
+import Logo from '../images/logoSemFundo.png'
 
 const Footer = () => {
     return (
@@ -39,34 +39,6 @@ const Footer = () => {
                     </svg>
                 </Link>
                 </div>
-            </div>
-            <div className='mt-4 grid md:grid-cols-2 gap-4 xl:col-span-2 xl:mt-0'>
-                <div className='md:grid md:grid-cols-2 md:gap-8'>
-
-                <div className='mt-8 md:mt-0'>
-                    <Link to='#sobremim'><h3 className='text-sm font-semibold leading-6 text-gray-900'>Sobre mim</h3></Link>
-                </div>
-                
-                <div>
-                    <h3 className='text-sm font-semibold leading-6 text-gray-900 mt-9 sm:mt-9 lg:mt-0'>Serviços</h3>
-                    <div role='list' className='mt-6 space-y-4 w-72'>
-                    <div>
-                        <Link to='#link-whatsapp' className='text-sm font-light leading-6 text-gray-600 hover:text-gray-900'>Terapia para Adultos</Link>
-                    </div>
-                    <div>
-                        <Link to='#link-whatsapp' className='text-sm font-light leading-6 text-gray-600 hover:text-gray-900'>Terapia para Idosos</Link>
-                    </div>
-                    <div>
-                        <Link to='#link-whatsapp' className='text-sm font-light leading-6 text-gray-600 hover:text-gray-900'>Avaliação Psicológica</Link>
-                    </div>
-                    <div>
-                        <Link to='#link-whatsapp' className='text-sm font-light leading-6 text-gray-600 hover:text-gray-900'>Supervisão para Psicólogos</Link>
-                    </div>
-                    </div>
-                </div>
-                
-                </div>
-                
             </div>
             </div>
             <div className='mt-6 border-t border-gray-900/10 pt-4 sm:mt-2 lg:mt-2'>

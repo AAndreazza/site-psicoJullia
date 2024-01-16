@@ -1,5 +1,5 @@
 import React from 'react'
-import fotoTeste from '../images/fotoLadoSorrindo.jpg'
+import fotoTeste from '../images/fotoLadoSorrindo.webp'
 
 const Sobre = () => {
     return (
@@ -21,7 +21,7 @@ const Sobre = () => {
                     <div className='font-normal text-white text-xl text-center sm:text-left'>Júllia Caterine Andreazza</div>
                     <div className='font-normal text-[#a7f5df] text-base text-center sm:text-left'>CRP 12/16490</div>  
                 </div>
-                <blockquote className='font-light mt-5 sm:text-xl leading-8 text-white text-center sm:text-left sm:leading-9'>
+                <blockquote className='font-light mt-5 sm:text-xl leading-8 text-white text-center sm:leading-9'>
                     <p>Sou psicóloga graduada pela UNIVALI, especialista em Gerontologia (HIAE) e especializanda em Neuropsicologia (IPOG). Atuo com base na Terapia Cognitivo-Comportamental (TCC), uma abordagem estabelecida na colaboração entre paciente e terapeuta. Ao longo da minha prática clínica, tenho buscado as pesquisas mais relevantes no campo da psicologia para oferecer as intervenções adequadas a cada paciente e potencializar as chances de alcançar resultados positivos e duradouros.</p>
                 </blockquote>
                 </figure>
