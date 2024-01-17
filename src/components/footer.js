@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import { CTA_WHATSAPP_MENSAGENS, URLS } from '../utils/constants'
 import { getWhatsUrl } from '../utils/index.js'
-import Logo from '../images/logoSemFundo.png'
+import Logo from '../images/logoSemFundo.webp'
 
 const Footer = () => {
     return (

@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import { Link as ScrollLink } from "react-scroll";
 import { CTA_WHATSAPP_MENSAGENS } from '../utils/constants'
 import { getWhatsUrl } from '../utils/index.js'
-import Logo from '../images/logoSemFundo.png'
+import Logo from '../images/logoSemFundo.webp'
 
 const Hero = () => {
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
