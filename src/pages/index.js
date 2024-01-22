@@ -11,7 +11,7 @@ import Footer from "../components/footer"
 const Index = () => {
     return (
         <div className='bg-fundoGeral'>
-            <Seo title='Júllia Andreazza - Psicóloga' description='Terapia Cognitivo-Comportamental (TCC) e Neuropsicologia para adultos e idosos. Psicologia baseada em evidências.' />
+            <Seo title='Psicóloga Jullia Andreazza - Blumenau, Santa Catarina' description='Terapia Cognitivo-Comportamental (TCC) e Neuropsicologia para adultos e idosos. Atendimentos on-line ou presencial em Blumenau/SC.' />
             <Hero />
             <Sobre1/>
             <Servicos />
