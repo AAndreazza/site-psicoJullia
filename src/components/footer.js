@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import { Link as ScrollLink } from "react-scroll";
 import { CTA_WHATSAPP_MENSAGENS, URLS } from '../utils/constants'
 import { getWhatsUrl } from '../utils/index.js'
 import Logo from '../images/logoSemFundo.webp'
@@ -11,10 +12,10 @@ const Footer = () => {
         <div className='mx-auto max-w-7xl px-6 pb-8 pt-6 sm:pt-12 lg:px-8 lg:pt-10'>
             <div className='xl:grid xl:grid-cols-3 xl:gap-8'>
             <div>
-                <Link to='#'>
+                <ScrollLink to='inicio' spy={true} smooth={true} className="cursor-pointer">
                 <span className='sr-only'>Psicológica Jullia</span>
                 <img className='h-20 w-20 rounded-full' src={Logo} alt='logo'/>
-                </Link>
+                </ScrollLink>
                 <div className='flex space-x-4 ml-3'>
                 <Link to={getWhatsUrl(CTA_WHATSAPP_MENSAGENS.ctaGeral)}  className='text-gray-400 hover:text-gray-500'>
                     <span className='sr-only'>Whatsapp</span>

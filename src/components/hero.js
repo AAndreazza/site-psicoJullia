@@ -8,11 +8,11 @@ import Logo from '../images/logoSemFundo.webp'
 const Hero = () => {
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
     return (
-        <div className='bg-fundoGeral '>
+        <div className='bg-fundoGeral' id='inicio'>
         <header className='absolute inset-x-0 top-0 z-50 bg-fundoGeral'>
             <nav className='flex items-center justify-between p-5 lg:px-8' aria-label='Global'>
             <div className='flex lg:flex-1'>
-                <Link to='#' className='-m-1.5 p-1.5'>
+                <Link to='/' className='-m-1.5 p-1.5'>
                 <span className='sr-only'>Psicóloga Jullia</span>
                 <img className='h-24 w-24 lg:h-20 lg:w-20 rounded-full' src={Logo} alt='Logo'/> 
                 </Link> 
