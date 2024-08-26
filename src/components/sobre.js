@@ -8,7 +8,7 @@ const Sobre = () => {
             <div className='mx-auto flex max-w-7xl flex-col items-center gap-x-8 gap-y-10 px-6 sm:gap-y-4 lg:px-8 xl:flex-row xl:items-stretch'>
             <div className='-mt-8 sm:-mt-8 mb-8 w-full max-w-2xl xl:-mb-8 xl:w-2/4 xl:flex-none'>
                 <div className='relative h-full md:-mx-8 xl:mx-0 xl:aspect-auto' id='sobremim'>
-                <img className='aspect-[1/1] object-cover object-top rounded-2xl h-full w-full shadow-2xl' src={fotoTeste} alt='Jullia....'/>
+                <img className='aspect-[1/1] object-cover object-top rounded-2xl h-full w-full shadow-2xl' src={fotoTeste} alt='Jullia olhando para o lado sorrindo'/>
                 </div>
             </div>
             <div className='w-full max-w-2xl px-4 xl:max-w-none xl:flex-auto xl:px-20 xl:py-24'>
