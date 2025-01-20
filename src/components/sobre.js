@@ -22,7 +22,7 @@ const Sobre = () => {
                     <div className='font-normal text-[#a7f5df] text-base text-center sm:text-left'>CRP 12/16490</div>  
                 </div>
                 <blockquote className='font-light mt-5 sm:text-xl leading-8 text-white text-center sm:leading-9'>
-                    <p>Sou psicóloga graduada pela UNIVALI, especialista em Gerontologia (HIAE) e especializanda em Neuropsicologia (IPOG). Atuo com base na Terapia Cognitivo-Comportamental (TCC) e na Terapia do Esquema (TE). Ao longo da minha prática clínica, tenho buscado as pesquisas mais relevantes no campo da psicologia para oferecer as intervenções adequadas a cada paciente e potencializar as chances de alcançar resultados positivos e duradouros.</p>
+                    <p>Sou psicóloga graduada pela UNIVALI, especialista em Neuropsicologia (IPOG) e Gerontologia (HIAE), e atualmente estou me especializando em Avaliação Psicológica (IPOG). Minha atuação é baseada na Terapia Cognitivo-Comportamental (TCC) e na Terapia do Esquema (TE). Ao longo da minha prática clínica, busco constantemente as pesquisas mais relevantes no campo da psicologia, com o objetivo de oferecer intervenções adequadas a cada paciente e potencializar as chances de alcançar resultados positivos e duradouros.</p>
                 </blockquote>
                 </figure>
             </div>
